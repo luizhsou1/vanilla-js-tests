@@ -1,0 +1,26 @@
+{
+  "name": "vanilla-js-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha -w --parallel *.test.js",
+    "test:cov": "npx nyc npx mocha --parallel *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizhsou1/vanilla-js-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizhsou1/vanilla-js-tests/issues"
+  },
+  "homepage": "https://github.com/luizhsou1/vanilla-js-tests#readme",
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "supertest": "^6.0.1"
+  }
+}
